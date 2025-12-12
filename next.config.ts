@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Next.js 16+ removed the 'eslint' block because it doesn't lint on build by default.
-  
-  // If your build is failing due to TypeScript errors, use this:
+  // ❌ DO NOT add 'eslint' here. It was removed in Next.js 16.
+  // Next.js 16 does not lint during build by default, so you don't need to ignore it.
+
+  // ✅ Keep this to ignore TypeScript errors during deployment
   typescript: {
     ignoreBuildErrors: true,
   },
