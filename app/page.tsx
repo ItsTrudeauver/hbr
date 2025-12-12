@@ -260,7 +260,7 @@ export default function TierList() {
   };
 
   return (
-    <main className="h-screen w-screen flex flex-col bg-[#050505] text-gray-200 font-sans overflow-hidden relative">
+    <main className="h-screen w-screen flex flex-col bg-[#050505] text-gray-200 font-sans overflow-hidden relative" style={{ zoom: 0.5 }}>
       
       <div className="absolute inset-0 pointer-events-none opacity-[0.04]" 
            style={{ backgroundImage: 'linear-gradient(#444 1px, transparent 1px), linear-gradient(90deg, #444 1px, transparent 1px)', backgroundSize: '60px 60px' }}>
