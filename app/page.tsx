@@ -52,18 +52,19 @@ const getRoleColor = (roleName: string) => {
   return ROLE_COLORS["Default"];
 };
 
-// --- Dimensions Config (Scaled Down for Better Fit) ---
+// --- Dimensions Config (COMPACT MODE) ---
+// Drastically reduced widths to fix the "Zoomed In" feeling
 const COLUMN_CONFIG: Record<string, { title: string; width: string }> = {
-  "Buffer (General)": { title: "Buffer (Gen)", width: "320px" },
-  "Buffer (Elemental)": { title: "Buffer (Elem)", width: "500px" },
-  "Defender": { title: "Defender", width: "220px" },
-  "Defender (General)": { title: "Defender", width: "220px" }, 
-  "Healer": { title: "Healer", width: "320px" },
-  "Debuffer (General)": { title: "Debuffer (Gen)", width: "320px" },
-  "Debuffer (Elemental)": { title: "Debuffer (Elem)", width: "500px" },
-  "Utility Support": { title: "Utility", width: "380px" },
-  "DPS (Single Target)": { title: "DPS (Single)", width: "500px" },
-  "DPS (AoE)": { title: "DPS (AoE)", width: "500px" },
+  "Buffer (General)": { title: "Buffer (Gen)", width: "260px" },
+  "Buffer (Elemental)": { title: "Buffer (Elem)", width: "360px" },
+  "Defender": { title: "Defender", width: "160px" },
+  "Defender (General)": { title: "Defender", width: "160px" }, 
+  "Healer": { title: "Healer", width: "260px" },
+  "Debuffer (General)": { title: "Debuffer (Gen)", width: "260px" },
+  "Debuffer (Elemental)": { title: "Debuffer (Elem)", width: "360px" },
+  "Utility Support": { title: "Utility", width: "280px" },
+  "DPS (Single Target)": { title: "DPS (Single)", width: "480px" },
+  "DPS (AoE)": { title: "DPS (AoE)", width: "360px" },
 };
 
 const COLUMN_ORDER = [
@@ -167,7 +168,7 @@ export default function TierList() {
 
   const renderCell = (tier: string, role: string) => {
     const chars = gridData[tier][role];
-    if (!chars || chars.length === 0) return <div className="h-full w-full min-h-[160px]" />; 
+    if (!chars || chars.length === 0) return <div className="h-full w-full min-h-[140px]" />; 
 
     const grouped: Record<number, Character[]> = {};
     chars.forEach(c => {
@@ -178,9 +179,9 @@ export default function TierList() {
     const sortedRowIds = Object.keys(grouped).map(Number).sort((a, b) => a - b);
 
     return (
-      <div className="flex flex-col gap-6 p-4 h-full justify-start">
+      <div className="flex flex-col gap-4 p-3 h-full justify-start">
         {sortedRowIds.map(rowId => (
-          <div key={rowId} className="flex flex-wrap gap-4 items-start">
+          <div key={rowId} className="flex flex-wrap gap-3 items-start">
             {grouped[rowId].map(char => {
               const charUniqueKey = `${char.name}|${char.version}`;
               const imagePath = char.image ? `/images/${char.image}` : null;
@@ -196,8 +197,8 @@ export default function TierList() {
                   onClick={(e) => handleCardClick(char, e)}
                   style={{ '--card-accent': accentColor } as React.CSSProperties}
                   className={`
-                    relative group cursor-pointer rounded-lg overflow-hidden
-                    w-[160px] h-[240px] flex-shrink-0 flex flex-col
+                    relative group cursor-pointer rounded-md overflow-hidden
+                    w-[100px] h-[150px] flex-shrink-0 flex flex-col
                     transition-all duration-200 select-none
                     bg-[#1a1b2e] border border-white/20
                     shadow-lg shadow-black/50
@@ -217,22 +218,22 @@ export default function TierList() {
                               loading="lazy"
                            />
                         ) : (
-                           <div className="w-full h-full flex items-center justify-center text-white/20 text-4xl font-mono bg-[#111]">?</div>
+                           <div className="w-full h-full flex items-center justify-center text-white/20 text-3xl font-mono bg-[#111]">?</div>
                         )}
                         {/* Element Dot */}
                         <div 
-                          className="absolute top-2 left-2 w-3 h-3 rounded-full shadow-[0_0_5px_black] border border-white/50" 
+                          className="absolute top-1.5 left-1.5 w-2.5 h-2.5 rounded-full shadow-[0_0_5px_black] border border-white/50" 
                           style={{ backgroundColor: accentColor }}
                         />
                     </div>
-                    <div className="h-[28%] w-full px-3 py-2 flex flex-col justify-center relative bg-[#151520] border-t border-white/10 group-hover:bg-[#1a1a28] transition-colors">
+                    <div className="h-[28%] w-full px-2 py-1.5 flex flex-col justify-center relative bg-[#151520] border-t border-white/10 group-hover:bg-[#1a1a28] transition-colors">
                         <span 
-                            className="text-[10px] font-bold uppercase tracking-widest mb-0.5 truncate opacity-90"
+                            className="text-[9px] font-bold uppercase tracking-widest mb-0.5 truncate opacity-90"
                             style={{ color: accentColor === '#ffffff' ? '#d1d5db' : accentColor }}
                         >
                             {char.version}
                         </span>
-                        <h3 className="text-sm font-bold text-white leading-tight line-clamp-2 drop-shadow-md">
+                        <h3 className="text-xs font-bold text-white leading-tight line-clamp-2 drop-shadow-md">
                             {char.name}
                         </h3>
                     </div>
@@ -247,7 +248,7 @@ export default function TierList() {
                                 const nextCard = sameCards[(currIdx + 1) % sameCards.length];
                                 scrollToId(nextCard.rank_index);
                             }}
-                            className="absolute top-2 right-2 bg-black/80 hover:bg-white hover:text-black text-white border border-white/50 text-base w-8 h-8 flex items-center justify-center rounded-full shadow-xl z-50 transition-colors"
+                            className="absolute top-1 right-1 bg-black/80 hover:bg-white hover:text-black text-white border border-white/50 text-sm w-6 h-6 flex items-center justify-center rounded-full shadow-xl z-50 transition-colors"
                         >
                             ⏭
                         </button>
@@ -275,17 +276,16 @@ export default function TierList() {
           background: transparent;
         }
         ::-webkit-scrollbar-thumb {
-          background: #334155; /* Slate-700 */
+          background: #334155; 
           border-radius: 4px;
         }
         ::-webkit-scrollbar-thumb:hover {
-          background: ${SERAPH_PINK}; /* Glow Pink on Hover */
+          background: ${SERAPH_PINK};
           box-shadow: 0 0 10px ${SERAPH_PINK};
         }
         ::-webkit-scrollbar-corner {
           background: transparent;
         }
-        /* Firefox Support */
         * {
             scrollbar-width: thin;
             scrollbar-color: #334155 transparent;
@@ -311,30 +311,29 @@ export default function TierList() {
       <div className="absolute bottom-[-20%] right-[10%] w-[600px] h-[600px] bg-blue-900/10 rounded-full blur-[100px] pointer-events-none" />
 
       {/* --- HEADER --- */}
-      <header className="h-24 flex-shrink-0 bg-[#0f111a]/80 backdrop-blur-md border-b border-white/10 flex items-center px-8 gap-8 z-50 shadow-2xl relative">
+      <header className="h-20 flex-shrink-0 bg-[#0f111a]/80 backdrop-blur-md border-b border-white/10 flex items-center px-6 gap-6 z-50 shadow-2xl relative">
         <div className="absolute top-0 left-0 right-0 h-[2px]" style={{ background: `linear-gradient(90deg, ${SERAPH_PINK}, #6366f1)` }} />
         
         <div className="flex flex-col justify-center select-none">
-            <h1 className="text-4xl font-black italic tracking-tighter flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full border-[2px] border-pink-500 flex items-center justify-center shadow-[0_0_15px_#d64f92] bg-black/50">
-                    <span className="text-pink-500 text-xl">✦</span>
+            <h1 className="text-3xl font-black italic tracking-tighter flex items-center gap-3">
+                <div className="w-8 h-8 rounded-full border-[2px] border-pink-500 flex items-center justify-center shadow-[0_0_15px_#d64f92] bg-black/50">
+                    <span className="text-pink-500 text-lg">✦</span>
                 </div>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff7eb3] to-[#d64f92]" style={{ textShadow: `0 0 20px ${SERAPH_PINK}50` }}>MEMORIA</span> 
                 <span className="text-white">TIER LIST</span>
             </h1>
-            <span className="text-xs text-gray-400 font-mono tracking-[0.4em] ml-[3.5rem] mt-0.5 uppercase font-bold">Ver 5.3.0</span>
         </div>
         
         {/* --- FILTERS --- */}
-        <div className="ml-auto flex items-center bg-[#13151f] rounded-md border border-white/10 h-12 w-[800px] shadow-lg relative overflow-hidden ring-1 ring-white/5">
-            <div className="pl-4 pr-3 text-blue-400 text-xl drop-shadow-[0_0_5px_rgba(96,165,250,0.8)]">
+        <div className="ml-auto flex items-center bg-[#13151f] rounded-md border border-white/10 h-10 w-[700px] shadow-lg relative overflow-hidden ring-1 ring-white/5">
+            <div className="pl-3 pr-2 text-blue-400 text-lg drop-shadow-[0_0_5px_rgba(96,165,250,0.8)]">
                 🔍
             </div>
             
             <input 
                 list="names-list" 
                 placeholder="SEARCH IDENTITY..." 
-                className="bg-transparent text-gray-200 px-2 outline-none flex-1 text-base font-bold placeholder-gray-600 uppercase tracking-widest h-full"
+                className="bg-transparent text-gray-200 px-2 outline-none flex-1 text-sm font-bold placeholder-gray-600 uppercase tracking-widest h-full"
                 value={searchName}
                 onChange={(e) => { setSearchName(e.target.value); setSearchStyle(""); }}
             />
@@ -345,24 +344,24 @@ export default function TierList() {
             <div className="w-[1px] h-1/2 bg-white/10 mx-1" />
 
             {/* Element Filter */}
-            <div className="w-[180px] relative h-full bg-transparent hover:bg-white/5 transition-colors border-l border-white/10">
+            <div className="w-[160px] relative h-full bg-transparent hover:bg-white/5 transition-colors border-l border-white/10">
                 <select 
-                    className="bg-transparent text-gray-300 w-full h-full pl-4 pr-8 outline-none text-sm font-bold uppercase cursor-pointer appearance-none relative z-10"
+                    className="bg-transparent text-gray-300 w-full h-full pl-3 pr-6 outline-none text-xs font-bold uppercase cursor-pointer appearance-none relative z-10"
                     value={searchElement}
                     onChange={(e) => setSearchElement(e.target.value)}
                 >
                     <option value="" className="bg-[#13151f]">ALL ELEMENTS</option>
                     {ELEMENTS.map(elem => <option key={elem} value={elem} className="bg-[#13151f]">{elem}</option>)}
                 </select>
-                <div className="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none text-white/50 text-[10px]">▼</div>
+                <div className="absolute right-2 top-1/2 transform -translate-y-1/2 pointer-events-none text-white/50 text-[8px]">▼</div>
             </div>
             
             <div className="w-[1px] h-1/2 bg-white/10 mx-1" />
 
             {/* Style Filter */}
-            <div className="w-[200px] relative h-full bg-transparent hover:bg-white/5 transition-colors border-l border-white/10">
+            <div className="w-[180px] relative h-full bg-transparent hover:bg-white/5 transition-colors border-l border-white/10">
                 <select 
-                    className="bg-transparent text-gray-300 w-full h-full pl-4 pr-8 outline-none disabled:opacity-30 text-sm font-bold uppercase cursor-pointer appearance-none relative z-10"
+                    className="bg-transparent text-gray-300 w-full h-full pl-3 pr-6 outline-none disabled:opacity-30 text-xs font-bold uppercase cursor-pointer appearance-none relative z-10"
                     disabled={!searchName || availableStyles.length === 0}
                     value={searchStyle}
                     onChange={(e) => setSearchStyle(e.target.value)}
@@ -370,7 +369,7 @@ export default function TierList() {
                     <option value="" className="bg-[#13151f]">ALL STYLES</option>
                     {availableStyles.map(style => <option key={style} value={style} className="bg-[#13151f]">{style}</option>)}
                 </select>
-                <div className="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none text-white/50 text-[10px]">▼</div>
+                <div className="absolute right-2 top-1/2 transform -translate-y-1/2 pointer-events-none text-white/50 text-[8px]">▼</div>
             </div>
         </div>
       </header>
@@ -381,22 +380,22 @@ export default function TierList() {
             
             {/* Column Headers */}
             <div className="flex sticky top-0 z-40 bg-[#0b0d17]/95 backdrop-blur shadow-2xl border-b border-white/10">
-                <div className="sticky left-0 z-50 bg-[#0b0d17] w-[200px] flex-shrink-0 border-r border-white/10 flex items-center justify-center h-20 shadow-[5px_0_20px_black]">
-                    <span className="text-3xl font-black text-[#6888c3] tracking-[0.2em] italic drop-shadow-[0_0_15px_rgba(104,136,195,0.4)]">TIER</span>
+                <div className="sticky left-0 z-50 bg-[#0b0d17] w-[140px] flex-shrink-0 border-r border-white/10 flex items-center justify-center h-14 shadow-[5px_0_20px_black]">
+                    <span className="text-2xl font-black text-[#6888c3] tracking-[0.2em] italic drop-shadow-[0_0_15px_rgba(104,136,195,0.4)]">TIER</span>
                 </div>
                 {COLUMN_ORDER.map(role => {
                     const headerColor = getRoleColor(role);
                     return (
                         <div 
                             key={role} 
-                            className="flex-shrink-0 flex flex-col items-center justify-center border-r border-white/5 relative overflow-hidden h-20" 
+                            className="flex-shrink-0 flex flex-col items-center justify-center border-r border-white/5 relative overflow-hidden h-14" 
                             style={{ 
                                 width: COLUMN_CONFIG[role].width,
                                 background: `linear-gradient(180deg, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.2) 100%)`
                             }}
                         >
-                            <div className="absolute bottom-0 left-0 right-0 h-[3px] shadow-[0_0_15px_currentColor]" style={{ backgroundColor: headerColor, color: headerColor }} />
-                            <span className="relative z-10 text-xl font-black uppercase tracking-widest text-gray-100 drop-shadow-md">
+                            <div className="absolute bottom-0 left-0 right-0 h-[2px] shadow-[0_0_15px_currentColor]" style={{ backgroundColor: headerColor, color: headerColor }} />
+                            <span className="relative z-10 text-sm font-black uppercase tracking-widest text-gray-100 drop-shadow-md">
                                 {COLUMN_CONFIG[role].title}
                             </span>
                         </div>
@@ -412,23 +411,23 @@ export default function TierList() {
                     <div key={tier} className={`flex border-b border-white/5 transition-colors group/row ${rowBg}`}>
                         
                         {/* Sticky Tier Label */}
-                        <div className="sticky left-0 z-30 w-[200px] flex-shrink-0 border-r border-white/10 flex flex-col items-center justify-center p-4 shadow-[5px_0_30px_rgba(0,0,0,0.5)] overflow-visible"
+                        <div className="sticky left-0 z-30 w-[140px] flex-shrink-0 border-r border-white/10 flex flex-col items-center justify-center p-2 shadow-[5px_0_30px_rgba(0,0,0,0.5)] overflow-visible"
                              style={{ background: 'linear-gradient(135deg, #131221 0%, #0b0d17 100%)' }}
                         >
                             <span 
-                                className="text-7xl font-black italic tracking-tighter select-none transition-all duration-300 group-hover/row:scale-110 leading-[0.8]"
+                                className="text-5xl font-black italic tracking-tighter select-none transition-all duration-300 group-hover/row:scale-110 leading-[0.8]"
                                 style={{ 
                                     background: `linear-gradient(180deg, #ffffff 0%, ${SERAPH_PINK} 100%)`, 
                                     WebkitBackgroundClip: 'text', 
                                     WebkitTextFillColor: 'transparent',
-                                    filter: `drop-shadow(0px 0px 20px ${SERAPH_PINK}30)`,
-                                    paddingRight: '0.5rem' 
+                                    filter: `drop-shadow(0px 0px 15px ${SERAPH_PINK}30)`,
+                                    paddingRight: '0.2rem' 
                                 }}
                             >
                                 {tier.split(" ")[0]}
                             </span>
                             {tier.includes("(") && (
-                                <span className="text-xs uppercase font-bold text-gray-500 mt-4 tracking-[0.2em] bg-black/40 px-3 py-1 rounded border border-white/10 backdrop-blur-sm">
+                                <span className="text-[9px] uppercase font-bold text-gray-500 mt-2 tracking-[0.2em] bg-black/40 px-2 py-0.5 rounded border border-white/10 backdrop-blur-sm">
                                     {tier.split("(")[1].replace(")", "")}
                                 </span>
                             )}
