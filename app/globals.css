@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  /* This replaces the 'extend: colors' from the old ts config */
+  --color-background: #1a1a1a;
+  --color-foreground: #ededed;
+  
+  /* This replaces the 'minWidth' config */
+  --min-width-cell-card: 130px;
+}
+
+/* App Styles */
+body {
+  color: var(--color-foreground);
+  background: var(--color-background);
+  overflow: hidden; 
+}
+
+/* Utilities */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.tier-grid-container {
+  position: relative; 
+  overflow: auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Animations */
+.card-focus {
+  z-index: 50;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.dimmed {
+  filter: grayscale(100%) opacity(0.2);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}

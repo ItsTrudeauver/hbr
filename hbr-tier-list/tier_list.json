@@ -1,0 +1,1721 @@
+[
+  {
+    "name": "Ruka",
+    "version": "SS5",
+    "tier": "10 (Best)",
+    "role": "Buffer (General)",
+    "row_id": 12,
+    "color": "#ffffff",
+    "rank_index": 0
+  },
+  {
+    "name": "Erika Aoi",
+    "version": "SS4",
+    "tier": "10 (Best)",
+    "role": "Utility Support",
+    "row_id": 12,
+    "color": "#ffffff",
+    "rank_index": 1
+  },
+  {
+    "name": "Bungo",
+    "version": "SS4",
+    "tier": "10 (Best)",
+    "role": "DPS (Single Target)",
+    "row_id": 12,
+    "color": "#ffffff",
+    "rank_index": 2
+  },
+  {
+    "name": "Tsukasa",
+    "version": "SS5",
+    "tier": "9",
+    "role": "Buffer (Elemental)",
+    "row_id": 17,
+    "color": "#ffffff",
+    "rank_index": 3
+  },
+  {
+    "name": "Ichiko",
+    "version": "SS3",
+    "tier": "9",
+    "role": "Debuffer (Elemental)",
+    "row_id": 17,
+    "color": "#ffffff",
+    "rank_index": 4
+  },
+  {
+    "name": "Misato",
+    "version": "SS3",
+    "tier": "9",
+    "role": "Debuffer (Elemental)",
+    "row_id": 17,
+    "color": "#ffffff",
+    "rank_index": 5
+  },
+  {
+    "name": "Yuina",
+    "version": "SS5",
+    "tier": "9",
+    "role": "Utility Support",
+    "row_id": 17,
+    "color": "#ffffff",
+    "rank_index": 6
+  },
+  {
+    "name": "Sumomo",
+    "version": "SS3 LB3",
+    "tier": "9",
+    "role": "DPS (Single Target)",
+    "row_id": 17,
+    "color": "#ffffff",
+    "rank_index": 7
+  },
+  {
+    "name": "Inori",
+    "version": "SS2",
+    "tier": "9",
+    "role": "DPS (AoE)",
+    "row_id": 17,
+    "color": "#ffffff",
+    "rank_index": 8
+  },
+  {
+    "name": "Monaka",
+    "version": "SS2 (w/SS3)",
+    "tier": "9",
+    "role": "DPS (AoE)",
+    "row_id": 17,
+    "color": "#ffffff",
+    "rank_index": 9
+  },
+  {
+    "name": "Tama",
+    "version": "SS5",
+    "tier": "9",
+    "role": "Buffer (General)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 10
+  },
+  {
+    "name": "Yotsuha",
+    "version": "SS1",
+    "tier": "9",
+    "role": "Buffer (Elemental)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 11
+  },
+  {
+    "name": "Adel",
+    "version": "SS4",
+    "tier": "9",
+    "role": "Buffer (Elemental)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 12
+  },
+  {
+    "name": "Iroha",
+    "version": "SS2",
+    "tier": "9",
+    "role": "Buffer (Elemental)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 13
+  },
+  {
+    "name": "Seira",
+    "version": "SS4",
+    "tier": "9",
+    "role": "Defender",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 14
+  },
+  {
+    "name": "Charlotta",
+    "version": "SS2",
+    "tier": "9",
+    "role": "Debuffer (Elemental)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 15
+  },
+  {
+    "name": "Hisame",
+    "version": "SS4",
+    "tier": "9",
+    "role": "Debuffer (Elemental)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 16
+  },
+  {
+    "name": "Tsukasa",
+    "version": "SS4",
+    "tier": "9",
+    "role": "Debuffer (Elemental)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 17
+  },
+  {
+    "name": "Aina",
+    "version": "SS2",
+    "tier": "9",
+    "role": "Utility Support",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 18
+  },
+  {
+    "name": "Yuina",
+    "version": "SS5+1",
+    "tier": "9",
+    "role": "DPS (Single Target)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 19
+  },
+  {
+    "name": "Erika Aoi",
+    "version": "SS2 (w/SS1)",
+    "tier": "9",
+    "role": "DPS (Single Target)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 20
+  },
+  {
+    "name": "Ruka",
+    "version": "SS5+1+4",
+    "tier": "9",
+    "role": "DPS (Single Target)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 21
+  },
+  {
+    "name": "Fubuki",
+    "version": "SS2",
+    "tier": "9",
+    "role": "DPS (Single Target)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 22
+  },
+  {
+    "name": "Misato",
+    "version": "SS2",
+    "tier": "9",
+    "role": "DPS (AoE)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 23
+  },
+  {
+    "name": "Yuina",
+    "version": "SS4",
+    "tier": "9",
+    "role": "DPS (AoE)",
+    "row_id": 22,
+    "color": "#ffffff",
+    "rank_index": 24
+  },
+  {
+    "name": "Yingxia",
+    "version": "SS2(w/SS1)",
+    "tier": "8",
+    "role": "Buffer (Elemental)",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 25
+  },
+  {
+    "name": "Erika Aoi",
+    "version": "SS3 (w/ SS1)",
+    "tier": "8",
+    "role": "Defender",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 26
+  },
+  {
+    "name": "Erika Aoi",
+    "version": "SS1",
+    "tier": "8",
+    "role": "Defender",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 27
+  },
+  {
+    "name": "Risa",
+    "version": "SS3 (debuff)",
+    "tier": "8",
+    "role": "Healer",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 28
+  },
+  {
+    "name": "Miya",
+    "version": "SS2",
+    "tier": "8",
+    "role": "Debuffer (General)",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 29
+  },
+  {
+    "name": "Megumi",
+    "version": "SS3",
+    "tier": "8",
+    "role": "Debuffer (Elemental)",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 30
+  },
+  {
+    "name": "Megumi",
+    "version": "SS5",
+    "tier": "8",
+    "role": "Debuffer (Elemental)",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 31
+  },
+  {
+    "name": "Kozue",
+    "version": "SS3",
+    "tier": "8",
+    "role": "Utility Support",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 32
+  },
+  {
+    "name": "Yuki",
+    "version": "SS6",
+    "tier": "8",
+    "role": "Utility Support",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 33
+  },
+  {
+    "name": "Satomi Kura",
+    "version": "SS1/2 (Master)",
+    "tier": "8",
+    "role": "Utility Support",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 34
+  },
+  {
+    "name": "Sumomo",
+    "version": "SS3",
+    "tier": "8",
+    "role": "DPS (Single Target)",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 35
+  },
+  {
+    "name": "Kanade",
+    "version": "SS2",
+    "tier": "8",
+    "role": "DPS (Single Target)",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 36
+  },
+  {
+    "name": "Monaka",
+    "version": "SS3",
+    "tier": "8",
+    "role": "DPS (Single Target)",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 37
+  },
+  {
+    "name": "Yuina",
+    "version": "SS3",
+    "tier": "8",
+    "role": "DPS (AoE)",
+    "row_id": 27,
+    "color": "#ffffff",
+    "rank_index": 38
+  },
+  {
+    "name": "Yingxia",
+    "version": "SS3 (w/SS1)",
+    "tier": "8",
+    "role": "Buffer (General)",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 39
+  },
+  {
+    "name": "Yingxia",
+    "version": "SS1",
+    "tier": "8",
+    "role": "Buffer (General)",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 40
+  },
+  {
+    "name": "Tsukasa",
+    "version": "SS3",
+    "tier": "8",
+    "role": "Buffer (Elemental)",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 41
+  },
+  {
+    "name": "Muua",
+    "version": "SS1",
+    "tier": "8",
+    "role": "Healer",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 42
+  },
+  {
+    "name": "Muua",
+    "version": "SS2 (w/1)",
+    "tier": "8",
+    "role": "Healer",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 43
+  },
+  {
+    "name": "Fubuki",
+    "version": "SS1+2 (Evo)",
+    "tier": "8",
+    "role": "Debuffer (General)",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 44
+  },
+  {
+    "name": "Miko Tennen",
+    "version": "SS3 (w/ evo)",
+    "tier": "8",
+    "role": "Debuffer (Elemental)",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 45
+  },
+  {
+    "name": "Fubuki",
+    "version": "SS2",
+    "tier": "8",
+    "role": "Utility Support",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 46
+  },
+  {
+    "name": "Yuina",
+    "version": "SS4",
+    "tier": "8",
+    "role": "Utility Support",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 47
+  },
+  {
+    "name": "Maria",
+    "version": "SS3",
+    "tier": "8",
+    "role": "DPS (Single Target)",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 48
+  },
+  {
+    "name": "Kanade",
+    "version": "SS1",
+    "tier": "8",
+    "role": "DPS (Single Target)",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 49
+  },
+  {
+    "name": "Irene",
+    "version": "SS2",
+    "tier": "8",
+    "role": "DPS (Single Target)",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 50
+  },
+  {
+    "name": "Hisame",
+    "version": "SS2",
+    "tier": "8",
+    "role": "DPS (AoE)",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 51
+  },
+  {
+    "name": "Monaka",
+    "version": "SS1 (w/SS3)",
+    "tier": "8",
+    "role": "DPS (AoE)",
+    "row_id": 32,
+    "color": "#ffffff",
+    "rank_index": 52
+  },
+  {
+    "name": "Shiki",
+    "version": "SS2",
+    "tier": "7 (Strong)",
+    "role": "Buffer (Elemental)",
+    "row_id": 37,
+    "color": "#ffffff",
+    "rank_index": 53
+  },
+  {
+    "name": "Isuzu",
+    "version": "SS2+3",
+    "tier": "7 (Strong)",
+    "role": "Debuffer (General)",
+    "row_id": 37,
+    "color": "#ffffff",
+    "rank_index": 54
+  },
+  {
+    "name": "Isuzu",
+    "version": "SS3",
+    "tier": "7 (Strong)",
+    "role": "Debuffer (Elemental)",
+    "row_id": 37,
+    "color": "#ffffff",
+    "rank_index": 55
+  },
+  {
+    "name": "Irene",
+    "version": "SS3",
+    "tier": "7 (Strong)",
+    "role": "Utility Support",
+    "row_id": 37,
+    "color": "#ffffff",
+    "rank_index": 56
+  },
+  {
+    "name": "Mari",
+    "version": "SS3 (w/SS1)",
+    "tier": "7 (Strong)",
+    "role": "DPS (Single Target)",
+    "row_id": 37,
+    "color": "#ffffff",
+    "rank_index": 57
+  },
+  {
+    "name": "Mari",
+    "version": "SS4",
+    "tier": "7 (Strong)",
+    "role": "DPS (Single Target)",
+    "row_id": 37,
+    "color": "#ffffff",
+    "rank_index": 58
+  },
+  {
+    "name": "Yuri",
+    "version": "SS1",
+    "tier": "7 (Strong)",
+    "role": "DPS (Single Target)",
+    "row_id": 37,
+    "color": "#ffffff",
+    "rank_index": 59
+  },
+  {
+    "name": "Bon Ivar",
+    "version": "SS3",
+    "tier": "7 (Strong)",
+    "role": "DPS (AoE)",
+    "row_id": 37,
+    "color": "#ffffff",
+    "rank_index": 60
+  },
+  {
+    "name": "Tsukasa",
+    "version": "SS2",
+    "tier": "7 (Strong)",
+    "role": "Buffer (Elemental)",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 61
+  },
+  {
+    "name": "Yotsuha",
+    "version": "SS2",
+    "tier": "7 (Strong)",
+    "role": "Buffer (Elemental)",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 62
+  },
+  {
+    "name": "Chie",
+    "version": "SS3",
+    "tier": "7 (Strong)",
+    "role": "Buffer (Elemental)",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 63
+  },
+  {
+    "name": "Seika",
+    "version": "SS3",
+    "tier": "7 (Strong)",
+    "role": "Healer",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 64
+  },
+  {
+    "name": "Akari",
+    "version": "SS2",
+    "tier": "7 (Strong)",
+    "role": "Utility Support",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 65
+  },
+  {
+    "name": "Akari",
+    "version": "SS3",
+    "tier": "7 (Strong)",
+    "role": "Utility Support",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 66
+  },
+  {
+    "name": "Bungo",
+    "version": "SS4",
+    "tier": "7 (Strong)",
+    "role": "Utility Support",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 67
+  },
+  {
+    "name": "Ichigo",
+    "version": "SS1",
+    "tier": "7 (Strong)",
+    "role": "DPS (Single Target)",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 68
+  },
+  {
+    "name": "Adel",
+    "version": "SS3",
+    "tier": "7 (Strong)",
+    "role": "DPS (Single Target)",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 69
+  },
+  {
+    "name": "Adel",
+    "version": "SS2",
+    "tier": "7 (Strong)",
+    "role": "DPS (Single Target)",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 70
+  },
+  {
+    "name": "Wakki",
+    "version": "SS4",
+    "tier": "7 (Strong)",
+    "role": "DPS (Single Target)",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 71
+  },
+  {
+    "name": "Akari",
+    "version": "SS3",
+    "tier": "7 (Strong)",
+    "role": "DPS (AoE)",
+    "row_id": 42,
+    "color": "#ffffff",
+    "rank_index": 72
+  },
+  {
+    "name": "Aina",
+    "version": "SS1",
+    "tier": "6",
+    "role": "Debuffer (General)",
+    "row_id": 47,
+    "color": "#ffffff",
+    "rank_index": 73
+  },
+  {
+    "name": "Miya",
+    "version": "SS3",
+    "tier": "6",
+    "role": "Debuffer (Elemental)",
+    "row_id": 47,
+    "color": "#ffffff",
+    "rank_index": 74
+  },
+  {
+    "name": "Aina",
+    "version": "SS3",
+    "tier": "6",
+    "role": "Debuffer (Elemental)",
+    "row_id": 47,
+    "color": "#ffffff",
+    "rank_index": 75
+  },
+  {
+    "name": "Bon Ivar",
+    "version": "SS3",
+    "tier": "6",
+    "role": "Utility Support",
+    "row_id": 47,
+    "color": "#ffffff",
+    "rank_index": 76
+  },
+  {
+    "name": "Wakki",
+    "version": "SS4",
+    "tier": "6",
+    "role": "Utility Support",
+    "row_id": 47,
+    "color": "#ffffff",
+    "rank_index": 77
+  },
+  {
+    "name": "Inori",
+    "version": "SS3+1",
+    "tier": "6",
+    "role": "DPS (Single Target)",
+    "row_id": 47,
+    "color": "#ffffff",
+    "rank_index": 78
+  },
+  {
+    "name": "Ichigo",
+    "version": "SS3",
+    "tier": "6",
+    "role": "DPS (Single Target)",
+    "row_id": 47,
+    "color": "#ffffff",
+    "rank_index": 79
+  },
+  {
+    "name": "Maria",
+    "version": "SS2",
+    "tier": "6",
+    "role": "DPS (AoE)",
+    "row_id": 47,
+    "color": "#ffffff",
+    "rank_index": 80
+  },
+  {
+    "name": "Ruka",
+    "version": "SS2",
+    "tier": "6",
+    "role": "DPS (AoE)",
+    "row_id": 47,
+    "color": "#ffffff",
+    "rank_index": 81
+  },
+  {
+    "name": "Karen",
+    "version": "SS3",
+    "tier": "6",
+    "role": "DPS (AoE)",
+    "row_id": 47,
+    "color": "#ffffff",
+    "rank_index": 82
+  },
+  {
+    "name": "Seika",
+    "version": "SS2",
+    "tier": "6",
+    "role": "Buffer (General)",
+    "row_id": 52,
+    "color": "#ffffff",
+    "rank_index": 83
+  },
+  {
+    "name": "Mari",
+    "version": "SS2",
+    "tier": "6",
+    "role": "Buffer (General)",
+    "row_id": 52,
+    "color": "#ffffff",
+    "rank_index": 84
+  },
+  {
+    "name": "Nanami",
+    "version": "SS1",
+    "tier": "6",
+    "role": "Buffer (Elemental)",
+    "row_id": 52,
+    "color": "#ffffff",
+    "rank_index": 85
+  },
+  {
+    "name": "Ichiko",
+    "version": "SS2",
+    "tier": "6",
+    "role": "Defender",
+    "row_id": 52,
+    "color": "#ffffff",
+    "rank_index": 86
+  },
+  {
+    "name": "Carole",
+    "version": "SS2",
+    "tier": "6",
+    "role": "Healer",
+    "row_id": 52,
+    "color": "#ffffff",
+    "rank_index": 87
+  },
+  {
+    "name": "Maki",
+    "version": "SS1 (Evo)",
+    "tier": "6",
+    "role": "Debuffer (General)",
+    "row_id": 52,
+    "color": "#ffffff",
+    "rank_index": 88
+  },
+  {
+    "name": "Inori",
+    "version": "SS3",
+    "tier": "6",
+    "role": "Utility Support",
+    "row_id": 52,
+    "color": "#ffffff",
+    "rank_index": 89
+  },
+  {
+    "name": "Hisame",
+    "version": "SS3",
+    "tier": "6",
+    "role": "Utility Support",
+    "row_id": 52,
+    "color": "#ffffff",
+    "rank_index": 90
+  },
+  {
+    "name": "Ichigo",
+    "version": "SS2",
+    "tier": "6",
+    "role": "DPS (AoE)",
+    "row_id": 52,
+    "color": "#ffffff",
+    "rank_index": 91
+  },
+  {
+    "name": "Seira",
+    "version": "SS1",
+    "tier": "5",
+    "role": "Buffer (General)",
+    "row_id": 57,
+    "color": "#ffffff",
+    "rank_index": 92
+  },
+  {
+    "name": "Minori",
+    "version": "SS2",
+    "tier": "5",
+    "role": "Buffer (General)",
+    "row_id": 57,
+    "color": "#ffffff",
+    "rank_index": 93
+  },
+  {
+    "name": "Chie",
+    "version": "SS4",
+    "tier": "5",
+    "role": "Healer",
+    "row_id": 57,
+    "color": "#ffffff",
+    "rank_index": 94
+  },
+  {
+    "name": "Miko Tennen",
+    "version": "SS4",
+    "tier": "5",
+    "role": "Healer",
+    "row_id": 57,
+    "color": "#ffffff",
+    "rank_index": 95
+  },
+  {
+    "name": "Isuzu",
+    "version": "SS1+3",
+    "tier": "5",
+    "role": "Debuffer (Elemental)",
+    "row_id": 57,
+    "color": "#ffffff",
+    "rank_index": 96
+  },
+  {
+    "name": "Maki",
+    "version": "SS1 (LB3)",
+    "tier": "5",
+    "role": "Utility Support",
+    "row_id": 57,
+    "color": "#ffffff",
+    "rank_index": 97
+  },
+  {
+    "name": "Aina",
+    "version": "SS1",
+    "tier": "5",
+    "role": "Utility Support",
+    "row_id": 57,
+    "color": "#ffffff",
+    "rank_index": 98
+  },
+  {
+    "name": "Ichiko",
+    "version": "SS2",
+    "tier": "5",
+    "role": "DPS (Single Target)",
+    "row_id": 57,
+    "color": "#ffffff",
+    "rank_index": 99
+  },
+  {
+    "name": "Niina",
+    "version": "SS2",
+    "tier": "5",
+    "role": "DPS (AoE)",
+    "row_id": 57,
+    "color": "#ffffff",
+    "rank_index": 100
+  },
+  {
+    "name": "Minori",
+    "version": "SS1",
+    "tier": "5",
+    "role": "DPS (AoE)",
+    "row_id": 57,
+    "color": "#ffffff",
+    "rank_index": 101
+  },
+  {
+    "name": "Iroha",
+    "version": "SS1",
+    "tier": "5",
+    "role": "Buffer (Elemental)",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 102
+  },
+  {
+    "name": "Mion Yanagi",
+    "version": "SS1",
+    "tier": "5",
+    "role": "Healer",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 103
+  },
+  {
+    "name": "Mion Yanagi",
+    "version": "SS2",
+    "tier": "5",
+    "role": "Healer",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 104
+  },
+  {
+    "name": "Miko Tennen",
+    "version": "SS2",
+    "tier": "5",
+    "role": "Debuffer (Elemental)",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 105
+  },
+  {
+    "name": "Megumi",
+    "version": "SS4",
+    "tier": "5",
+    "role": "Debuffer (Elemental)",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 106
+  },
+  {
+    "name": "Karen",
+    "version": "SS3",
+    "tier": "5",
+    "role": "Utility Support",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 107
+  },
+  {
+    "name": "Yuina",
+    "version": "SS2",
+    "tier": "5",
+    "role": "Utility Support",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 108
+  },
+  {
+    "name": "Maria",
+    "version": "SS1",
+    "tier": "5",
+    "role": "DPS (Single Target)",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 109
+  },
+  {
+    "name": "Bon Ivar",
+    "version": "SS1",
+    "tier": "5",
+    "role": "DPS (Single Target)",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 110
+  },
+  {
+    "name": "Yuina",
+    "version": "SS1",
+    "tier": "5",
+    "role": "DPS (Single Target)",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 111
+  },
+  {
+    "name": "Yuki",
+    "version": "SS3",
+    "tier": "5",
+    "role": "DPS (AoE)",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 112
+  },
+  {
+    "name": "Hisame",
+    "version": "SS1",
+    "tier": "5",
+    "role": "DPS (AoE)",
+    "row_id": 62,
+    "color": "#ffffff",
+    "rank_index": 113
+  },
+  {
+    "name": "Charlotta",
+    "version": "SS3",
+    "tier": "4 (Viable)",
+    "role": "Buffer (Elemental)",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 114
+  },
+  {
+    "name": "Seika",
+    "version": "SS1",
+    "tier": "4 (Viable)",
+    "role": "Buffer (Elemental)",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 115
+  },
+  {
+    "name": "Yingxia",
+    "version": "SS2(w/oSS1)",
+    "tier": "4 (Viable)",
+    "role": "Buffer (Elemental)",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 116
+  },
+  {
+    "name": "Tama",
+    "version": "SS4",
+    "tier": "4 (Viable)",
+    "role": "Healer",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 117
+  },
+  {
+    "name": "Niina",
+    "version": "SS1",
+    "tier": "4 (Viable)",
+    "role": "Utility Support",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 118
+  },
+  {
+    "name": "Byakko",
+    "version": "SS2",
+    "tier": "4 (Viable)",
+    "role": "Utility Support",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 119
+  },
+  {
+    "name": "Inori",
+    "version": "SS1",
+    "tier": "4 (Viable)",
+    "role": "DPS (Single Target)",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 120
+  },
+  {
+    "name": "Kanata",
+    "version": "SS1",
+    "tier": "4 (Viable)",
+    "role": "DPS (Single Target)",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 121
+  },
+  {
+    "name": "Seira",
+    "version": "SS3",
+    "tier": "4 (Viable)",
+    "role": "DPS (Single Target)",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 122
+  },
+  {
+    "name": "Kanata",
+    "version": "SS2",
+    "tier": "4 (Viable)",
+    "role": "DPS (AoE)",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 123
+  },
+  {
+    "name": "Sumomo",
+    "version": "SS2",
+    "tier": "4 (Viable)",
+    "role": "DPS (AoE)",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 124
+  },
+  {
+    "name": "Minori",
+    "version": "SS1",
+    "tier": "4 (Viable)",
+    "role": "DPS (AoE)",
+    "row_id": 67,
+    "color": "#ffffff",
+    "rank_index": 125
+  },
+  {
+    "name": "Karen",
+    "version": "SS4",
+    "tier": "4 (Viable)",
+    "role": "Buffer (Elemental)",
+    "row_id": 72,
+    "color": "#ffffff",
+    "rank_index": 126
+  },
+  {
+    "name": "Mari",
+    "version": "SS1",
+    "tier": "4 (Viable)",
+    "role": "Buffer (Elemental)",
+    "row_id": 72,
+    "color": "#ffffff",
+    "rank_index": 127
+  },
+  {
+    "name": "Tsukasa",
+    "version": "SS1",
+    "tier": "4 (Viable)",
+    "role": "Buffer (Elemental)",
+    "row_id": 72,
+    "color": "#ffffff",
+    "rank_index": 128
+  },
+  {
+    "name": "Yuki",
+    "version": "SS4",
+    "tier": "4 (Viable)",
+    "role": "Utility Support",
+    "row_id": 72,
+    "color": "#ffffff",
+    "rank_index": 129
+  },
+  {
+    "name": "Yuri",
+    "version": "SS2",
+    "tier": "4 (Viable)",
+    "role": "Utility Support",
+    "row_id": 72,
+    "color": "#ffffff",
+    "rank_index": 130
+  },
+  {
+    "name": "Akari",
+    "version": "SS1",
+    "tier": "4 (Viable)",
+    "role": "DPS (Single Target)",
+    "row_id": 72,
+    "color": "#ffffff",
+    "rank_index": 131
+  },
+  {
+    "name": "Sumomo",
+    "version": "SS1",
+    "tier": "4 (Viable)",
+    "role": "DPS (Single Target)",
+    "row_id": 72,
+    "color": "#ffffff",
+    "rank_index": 132
+  },
+  {
+    "name": "Chie",
+    "version": "SS2",
+    "tier": "4 (Viable)",
+    "role": "DPS (Single Target)",
+    "row_id": 72,
+    "color": "#ffffff",
+    "rank_index": 133
+  },
+  {
+    "name": "Carole",
+    "version": "SS1",
+    "tier": "4 (Viable)",
+    "role": "DPS (AoE)",
+    "row_id": 72,
+    "color": "#ffffff",
+    "rank_index": 134
+  },
+  {
+    "name": "Yayoi Bungo",
+    "version": "SS3",
+    "tier": "4 (Viable)",
+    "role": "DPS (AoE)",
+    "row_id": 72,
+    "color": "#ffffff",
+    "rank_index": 135
+  },
+  {
+    "name": "Karen",
+    "version": "SS2",
+    "tier": "4 (Viable)",
+    "role": "DPS (AoE)",
+    "row_id": 72,
+    "color": "#ffffff",
+    "rank_index": 136
+  },
+  {
+    "name": "Ichiko",
+    "version": "SS1",
+    "tier": "3",
+    "role": "Defender",
+    "row_id": 77,
+    "color": "#ffffff",
+    "rank_index": 137
+  },
+  {
+    "name": "Seira",
+    "version": "SS2",
+    "tier": "3",
+    "role": "Defender",
+    "row_id": 77,
+    "color": "#ffffff",
+    "rank_index": 138
+  },
+  {
+    "name": "Tama",
+    "version": "SS1",
+    "tier": "3",
+    "role": "Healer",
+    "row_id": 77,
+    "color": "#ffffff",
+    "rank_index": 139
+  },
+  {
+    "name": "Kozue",
+    "version": "SS2",
+    "tier": "3",
+    "role": "Debuffer (Elemental)",
+    "row_id": 77,
+    "color": "#ffffff",
+    "rank_index": 140
+  },
+  {
+    "name": "Chiroru",
+    "version": "SS1",
+    "tier": "3",
+    "role": "Utility Support",
+    "row_id": 77,
+    "color": "#ffffff",
+    "rank_index": 141
+  },
+  {
+    "name": "Karen",
+    "version": "SS2",
+    "tier": "3",
+    "role": "Utility Support",
+    "row_id": 77,
+    "color": "#ffffff",
+    "rank_index": 142
+  },
+  {
+    "name": "Misato",
+    "version": "SS1",
+    "tier": "3",
+    "role": "DPS (Single Target)",
+    "row_id": 77,
+    "color": "#ffffff",
+    "rank_index": 143
+  },
+  {
+    "name": "Ruka",
+    "version": "SS3",
+    "tier": "3",
+    "role": "DPS (Single Target)",
+    "row_id": 77,
+    "color": "#ffffff",
+    "rank_index": 144
+  },
+  {
+    "name": "Ruka",
+    "version": "SS4",
+    "tier": "3",
+    "role": "DPS (Single Target)",
+    "row_id": 77,
+    "color": "#ffffff",
+    "rank_index": 145
+  },
+  {
+    "name": "Nanami",
+    "version": "SS1",
+    "tier": "3",
+    "role": "DPS (AoE)",
+    "row_id": 77,
+    "color": "#ffffff",
+    "rank_index": 146
+  },
+  {
+    "name": "Chiroru",
+    "version": "SS2",
+    "tier": "3",
+    "role": "Defender",
+    "row_id": 82,
+    "color": "#ffffff",
+    "rank_index": 147
+  },
+  {
+    "name": "Tama",
+    "version": "SS2",
+    "tier": "3",
+    "role": "Healer",
+    "row_id": 82,
+    "color": "#ffffff",
+    "rank_index": 148
+  },
+  {
+    "name": "Risa",
+    "version": "SS2",
+    "tier": "3",
+    "role": "Healer",
+    "row_id": 82,
+    "color": "#ffffff",
+    "rank_index": 149
+  },
+  {
+    "name": "Miya",
+    "version": "SS1",
+    "tier": "3",
+    "role": "Debuffer (Elemental)",
+    "row_id": 82,
+    "color": "#ffffff",
+    "rank_index": 150
+  },
+  {
+    "name": "Yayoi Bungo",
+    "version": "SS2",
+    "tier": "3",
+    "role": "Debuffer (Elemental)",
+    "row_id": 82,
+    "color": "#ffffff",
+    "rank_index": 151
+  },
+  {
+    "name": "Karen",
+    "version": "SS1",
+    "tier": "3",
+    "role": "Utility Support",
+    "row_id": 82,
+    "color": "#ffffff",
+    "rank_index": 152
+  },
+  {
+    "name": "Yuki",
+    "version": "SS5",
+    "tier": "3",
+    "role": "Utility Support",
+    "row_id": 82,
+    "color": "#ffffff",
+    "rank_index": 153
+  },
+  {
+    "name": "Tama",
+    "version": "SS3",
+    "tier": "3",
+    "role": "DPS (Single Target)",
+    "row_id": 82,
+    "color": "#ffffff",
+    "rank_index": 154
+  },
+  {
+    "name": "Satomi Kura",
+    "version": "SS2",
+    "tier": "3",
+    "role": "DPS (AoE)",
+    "row_id": 82,
+    "color": "#ffffff",
+    "rank_index": 155
+  },
+  {
+    "name": "Yuina",
+    "version": "SS2",
+    "tier": "3",
+    "role": "DPS (AoE)",
+    "row_id": 82,
+    "color": "#ffffff",
+    "rank_index": 156
+  },
+  {
+    "name": "Bon Ivar",
+    "version": "SS2",
+    "tier": "2",
+    "role": "Buffer (Elemental)",
+    "row_id": 87,
+    "color": "#ffffff",
+    "rank_index": 157
+  },
+  {
+    "name": "Shiki",
+    "version": "SS1",
+    "tier": "2",
+    "role": "Buffer (Elemental)",
+    "row_id": 87,
+    "color": "#ffffff",
+    "rank_index": 158
+  },
+  {
+    "name": "Vritika",
+    "version": "SS2",
+    "tier": "2",
+    "role": "Defender",
+    "row_id": 87,
+    "color": "#ffffff",
+    "rank_index": 159
+  },
+  {
+    "name": "Tama",
+    "version": "SS3",
+    "tier": "2",
+    "role": "Healer",
+    "row_id": 87,
+    "color": "#ffffff",
+    "rank_index": 160
+  },
+  {
+    "name": "Megumi",
+    "version": "SS2",
+    "tier": "2",
+    "role": "Debuffer (General)",
+    "row_id": 87,
+    "color": "#ffffff",
+    "rank_index": 161
+  },
+  {
+    "name": "Charolotta",
+    "version": "SS1",
+    "tier": "2",
+    "role": "Debuffer (Elemental)",
+    "row_id": 87,
+    "color": "#ffffff",
+    "rank_index": 162
+  },
+  {
+    "name": "Maki",
+    "version": "SS1",
+    "tier": "2",
+    "role": "Utility Support",
+    "row_id": 87,
+    "color": "#ffffff",
+    "rank_index": 163
+  },
+  {
+    "name": "Maki",
+    "version": "SS2",
+    "tier": "2",
+    "role": "Utility Support",
+    "row_id": 87,
+    "color": "#ffffff",
+    "rank_index": 164
+  },
+  {
+    "name": "Yayoi Bungo",
+    "version": "SS2",
+    "tier": "2",
+    "role": "DPS (Single Target)",
+    "row_id": 87,
+    "color": "#ffffff",
+    "rank_index": 165
+  },
+  {
+    "name": "Ichiko",
+    "version": "SS1",
+    "tier": "2",
+    "role": "Buffer (Elemental)",
+    "row_id": 92,
+    "color": "#ffffff",
+    "rank_index": 166
+  },
+  {
+    "name": "Seira",
+    "version": "SS2",
+    "tier": "2",
+    "role": "Buffer (Elemental)",
+    "row_id": 92,
+    "color": "#ffffff",
+    "rank_index": 167
+  },
+  {
+    "name": "Vritika",
+    "version": "SS1",
+    "tier": "2",
+    "role": "Defender",
+    "row_id": 92,
+    "color": "#ffffff",
+    "rank_index": 168
+  },
+  {
+    "name": "Tama",
+    "version": "SS2",
+    "tier": "1",
+    "role": "Buffer (General)",
+    "row_id": 97,
+    "color": "#ffffff",
+    "rank_index": 169
+  },
+  {
+    "name": "Tama",
+    "version": "SS3",
+    "tier": "1",
+    "role": "Buffer (Elemental)",
+    "row_id": 97,
+    "color": "#ffffff",
+    "rank_index": 170
+  },
+  {
+    "name": "Risa",
+    "version": "SS1",
+    "tier": "1",
+    "role": "Healer",
+    "row_id": 97,
+    "color": "#ffffff",
+    "rank_index": 171
+  },
+  {
+    "name": "Maria",
+    "version": "SS2",
+    "tier": "1",
+    "role": "Healer",
+    "row_id": 97,
+    "color": "#ffffff",
+    "rank_index": 172
+  },
+  {
+    "name": "Miko Tenne",
+    "version": "SS1",
+    "tier": "1",
+    "role": "Debuffer (General)",
+    "row_id": 97,
+    "color": "#ffffff",
+    "rank_index": 173
+  },
+  {
+    "name": "Yayoi Bungo",
+    "version": "SS1",
+    "tier": "1",
+    "role": "DPS (Single Target)",
+    "row_id": 97,
+    "color": "#ffffff",
+    "rank_index": 174
+  },
+  {
+    "name": "Adel",
+    "version": "SS1",
+    "tier": "1",
+    "role": "DPS (AoE)",
+    "row_id": 97,
+    "color": "#ffffff",
+    "rank_index": 175
+  },
+  {
+    "name": "Risa",
+    "version": "SS3(no debuff)",
+    "tier": "1",
+    "role": "Healer",
+    "row_id": 102,
+    "color": "#ffffff",
+    "rank_index": 176
+  },
+  {
+    "name": "Irene",
+    "version": "SS1",
+    "tier": "1",
+    "role": "DPS (AoE)",
+    "row_id": 102,
+    "color": "#ffffff",
+    "rank_index": 177
+  },
+  {
+    "name": "Erika Aoi",
+    "version": "SS3(w/oSS1)",
+    "tier": "0 (Fringe)",
+    "role": "Defender",
+    "row_id": 107,
+    "color": "#ffffff",
+    "rank_index": 178
+  },
+  {
+    "name": "Maria",
+    "version": "SS1",
+    "tier": "0 (Fringe)",
+    "role": "Healer",
+    "row_id": 107,
+    "color": "#ffffff",
+    "rank_index": 179
+  },
+  {
+    "name": "Kozue",
+    "version": "SS1",
+    "tier": "0 (Fringe)",
+    "role": "Utility Support",
+    "row_id": 107,
+    "color": "#ffffff",
+    "rank_index": 180
+  },
+  {
+    "name": "Yuki",
+    "version": "SS2",
+    "tier": "0 (Fringe)",
+    "role": "DPS (Single Target)",
+    "row_id": 107,
+    "color": "#ffffff",
+    "rank_index": 181
+  },
+  {
+    "name": "Minori",
+    "version": "SS1",
+    "tier": "0 (Fringe)",
+    "role": "Buffer (General)",
+    "row_id": 112,
+    "color": "#ffffff",
+    "rank_index": 182
+  },
+  {
+    "name": "Chiroru",
+    "version": "SS1",
+    "tier": "0 (Fringe)",
+    "role": "Defender",
+    "row_id": 112,
+    "color": "#ffffff",
+    "rank_index": 183
+  },
+  {
+    "name": "Chie",
+    "version": "SS1",
+    "tier": "0 (Fringe)",
+    "role": "Defender",
+    "row_id": 112,
+    "color": "#ffffff",
+    "rank_index": 184
+  },
+  {
+    "name": "Muua",
+    "version": "SS2 (w/o)",
+    "tier": "0 (Fringe)",
+    "role": "Healer",
+    "row_id": 112,
+    "color": "#ffffff",
+    "rank_index": 185
+  },
+  {
+    "name": "Hisame",
+    "version": "SS1",
+    "tier": "0 (Fringe)",
+    "role": "Debuffer (Elemental)",
+    "row_id": 112,
+    "color": "#ffffff",
+    "rank_index": 186
+  },
+  {
+    "name": "Megumi",
+    "version": "SS1",
+    "tier": "0 (Fringe)",
+    "role": "Utility Support",
+    "row_id": 112,
+    "color": "#ffffff",
+    "rank_index": 187
+  },
+  {
+    "name": "Byakko",
+    "version": "SS1",
+    "tier": "0 (Fringe)",
+    "role": "Utility Support",
+    "row_id": 112,
+    "color": "#ffffff",
+    "rank_index": 188
+  },
+  {
+    "name": "Yuki",
+    "version": "SS1",
+    "tier": "0 (Fringe)",
+    "role": "DPS (AoE)",
+    "row_id": 112,
+    "color": "#ffffff",
+    "rank_index": 189
+  },
+  {
+    "name": "Bon Ivar",
+    "version": "SS2",
+    "tier": "0 (Fringe)",
+    "role": "DPS (AoE)",
+    "row_id": 112,
+    "color": "#ffffff",
+    "rank_index": 190
+  }
+]
